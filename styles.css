@@ -7,7 +7,7 @@
 body {
   padding: 0;
   margin: 0;
-  background: linear-gradient(to right, #00AAFF, #00FF6C);
+  background: linear-gradient(to right, #284858, #61118f);
 }
 
 .calculator-grid {
@@ -23,12 +23,15 @@ body {
   cursor: pointer;
   font-size: 2rem;
   border: 1px solid white;
+  border-radius: 30px;
   outline: none;
   background-color: rgba(255, 255, 255, .75);
+  margin: 10px;
 }
 
 .calculator-grid > button:hover {
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(226, 52, 8, 0.9);
+  border: none;
 }
 
 .span-two {
@@ -37,7 +40,7 @@ body {
 
 .output {
   grid-column: 1 / -1;
-  background-color: rgba(0, 0, 0, .75);
+  background-color: rgba(0, 0, 0, 0.75);
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
