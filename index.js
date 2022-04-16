@@ -1,0 +1,4 @@
+function computeCalculation() {
+    let currentComputation;
+    
+}
