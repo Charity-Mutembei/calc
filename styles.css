@@ -13,23 +13,34 @@ body {
   background-repeat: no-repeat;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .calculator-grid {
+  margin-top: 10%;
   display: grid;
+  width: fit-content;
   justify-content: center;
   align-content: center;
-  min-height: 100vh;
+  height: fit-content;
   grid-template-columns: repeat(4, 100px);
   grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 20px 30px;
 }
 
 .calculator-grid > button {
   cursor: pointer;
   font-size: 2rem;
-  border: 1px solid rgba(158, 136, 111, 0.75);
+  border: 1px solid rgba(158, 136, 111, 0.85);
   border-radius: 30px;
   outline: none;
   color: #fff;
-  background-color: rgba(158, 136, 111, 0.75);
+  background-color: rgba(158, 136, 111, 0.85);
   margin: 10px;
 }
 
